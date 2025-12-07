@@ -1,4 +1,4 @@
-# 🎨 colourpeek
+# colourpeek
 
 Instantly preview an image and print its dominant colours to the terminal.
 
@@ -6,7 +6,7 @@ Instantly preview an image and print its dominant colours to the terminal.
 
 ---
 
-## 🧰 Features
+## Features
 
 - Creates nice, aesthetic colour palette through `colourthief` to grab colours.
 - Uses `climage` for a preview of the image in-terminal.
@@ -14,33 +14,28 @@ Instantly preview an image and print its dominant colours to the terminal.
 
 ---
 
-## ⚡️ Installation (Global)
+## Installation (Global)
 
-### 🐧 Linux / 🍎 macOS:
+### Linux / macOS:
 
 ```bash
-# Clone the repo
 git clone https://github.com/niftyifty/colourpeek.git
 cd colourpeek
 
-# Install globally
-pip install . --break-system-packages
-# or for user installs (safer)
 pip install . --user
 ```
-### 🪟 Windows (Command Prompt or PowerShell):
+### Windows (Command Prompt or PowerShell):
 ```
 git clone https://github.com/niftyifty/colourpeek.git
 cd colourpeek
 
-# Install globally for your user
 pip install . --user
 ```
 
 ---
 
 
-## 🚀 Usage
+## Usage
 
 `colourpeek path/to/image.jpg`
 
@@ -48,12 +43,12 @@ Example:
 
 `colourpeek ~/Pictures/sunset.png`
 
-Uninstall (_not that you'd ever need to_) with 
-`pip uninstall colourpeek` :(
+Uninstall (_not that you'd ever need to_) 
+`pip uninstall colourpeek`
 
 ---
 
-## 🔧 Flags
+## Flags
 
 Flag	Description
 -n, --num	Number of dominant colours to extract (default: 8)
@@ -64,14 +59,14 @@ Flag	Description
 
 ---
 
-## 🧩 Dependencies
-	•	colorthief – For palette extraction
-	•	climage – For image preview in ANSI
-	•	argparse – For CLI parsing (built-in)
+## Dependencies
+- colorthief – For palette extraction
+- climage – For image preview in ANSI
+- argparse – For CLI parsing (built-in)
 
 ---
 
-### 🗂 Configuration
+### Configuration
 
 Settings like truecolor preference are saved in:
 
@@ -81,9 +76,9 @@ To reset, run with --forget.
 
 ---
 
-## 🙏 Thank you:
-	•	Terminal image rendering by climage
-	•	Colour extraction powered by Color Thief
-	•	Created with love by @niftyifty 💜
+## credits 
+Terminal image rendering by climage
+Colour extraction powered by Color Thief
+
 
 ---
